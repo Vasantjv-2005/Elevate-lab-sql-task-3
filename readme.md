@@ -1,19 +1,19 @@
 # Elevate Labs SQL Internship - Students Table (Structured Dump)
 
-## 📌 Overview
+## Overview
 This repository contains a structured SQL dump and practice queries for the Elevate Labs SQL Internship.
 The main goal is to build and practice SQL concepts using a `students_v2` table inside the database
 `intern_training_db`.
 
 ---
 
-## 🗄️ Database Details
+##  Database Details
 - **Database Name:** `intern_training_db`
 - **Table Name:** `students_v2`
 
 ---
 
-## 🧱 Table Structure (students_v2)
+##  Table Structure (students_v2)
 
 | Column Name  | Data Type      | Constraints |
 |------------|----------------|------------|
@@ -27,23 +27,23 @@ The main goal is to build and practice SQL concepts using a `students_v2` table 
 
 ---
 
-## 🔒 Why Constraints are Used?
-### ✅ PRIMARY KEY (id)
+##  Why Constraints are Used?
+###  PRIMARY KEY (id)
 - Ensures every record is uniquely identified.
 - Helps improve query performance using indexing.
 
-### ✅ NOT NULL (name, email, dob)
+###  NOT NULL (name, email, dob)
 - Prevents storing incomplete student records.
 
-### ✅ UNIQUE (email)
+###  UNIQUE (email)
 - Ensures no duplicate emails are stored in the database.
 
-### ✅ DEFAULT CURRENT_TIMESTAMP (created_at)
+###  DEFAULT CURRENT_TIMESTAMP (created_at)
 - Automatically stores the insertion timestamp.
 
 ---
 
-## 📄 Files Included
+##  Files Included
 - `intern_training_db_students_v2_structured.sql`
   - Clean structured SQL dump
   - Includes database creation, table creation, and data insertion
@@ -51,7 +51,7 @@ The main goal is to build and practice SQL concepts using a `students_v2` table 
 
 ---
 
-## ▶️ How to Run This Project (MySQL Workbench)
+##  How to Run This Project (MySQL Workbench)
 1. Open **MySQL Workbench**
 2. Connect to your server (**Local instance MySQL80**)
 3. Open file: `intern_training_db_students_v2_structured.sql`
@@ -62,7 +62,7 @@ The main goal is to build and practice SQL concepts using a `students_v2` table 
 
 ---
 
-## ✅ Sample Use Cases Practiced
+##  Sample Use Cases Practiced
 - WHERE clause filtering (age based filtering)
 - AND / OR multiple conditions
 - LIKE search using wildcards `%` and `_`
@@ -73,6 +73,6 @@ The main goal is to build and practice SQL concepts using a `students_v2` table 
 
 ---
 
-## 👨‍💻 Author
-**Sunny**  
+##  Author
+**Vasant Jevengekar**  
 SQL Intern - Elevate Labs
